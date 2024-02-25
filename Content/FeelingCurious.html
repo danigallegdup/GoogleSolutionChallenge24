@@ -33,52 +33,213 @@
   <!---------------------------------------------------------------------------------------------------------------------------------------------->
   <!-------------------------------------- Three main pathways  --------------------------------------------------------------------------------------->
   <!---------------------------------------------------------------------------------------------------------------------------------------------->
- 
+
   <div id="choose_path">
     <div class="header">
-        <a href="../index.html">Home</a> 
-        <a href="../Content/StudySpace.html">Study Space</a>
-        <a href="../Content/Goals.html">Goals</a> 
-        <a href="../index.html">About</a>
-        <a href="#about">Acount</a>
-        <a href="#contact">Search</a>
+      <a target='_blank' href="https://github.com/danigallegdup/GoogleSolutionChallenge24">GitHub</a>
+      <a href="./account.html">Acount</a>
+      <a href="./sdg_4.html">SDG#4</a>
+
     </div>
-    <!-- <section class="cards-wrapper">
-      <div class="card-grid-space">
-        <a class="card" href="./Content/StudySpace.html"
-          style="background-image: url(./img/top-view-paper-earth-concept.jpg);">
-          <div>
-            <h1>Study for a Course</h1>
-            <div class="tags">
-            </div>
-          </div>
-        </a>
-      </div>
 
-      <div class="card-grid-space">
-        <a class="card" href="./Content/Goals.html"
-          style="background-image: url(./img/front-view-education-day-concept.jpg );">
-          <div>
-            <h1>Hit your Goals</h1>
-            <div class="tags">
-            </div>
-          </div>
-        </a>
-      </div>
+    <div class="search-container">
+      <form id="search-form" action="/search" method="get">
+        <input type="search" id="search-input" name="q" placeholder="Visualization of all human knowledge">
+        <button type="submit" class="search-button">Go</button>
+      </form>
+    </div>
 
-      <div class="card-grid-space">
-        <a class="card" href="./Content/FeelingCurious.html"
-          style="background-image: url(./img/environment-education-day-concept.jpg);">
-          <div>
-            <h1>Learn Something</h1>
-            <div class="tags">
-            </div>
-          </div>
-        </a>
-      </div>
+    <script>
+      var stages = ['Second_stage', 'Third_stage', 'Fourth_stage', 'choose_path'];
+      var currentStage = 0;
 
-    </section> -->
+      document.getElementById('search-form').addEventListener('submit', function (event) {
+        event.preventDefault();
+        document.getElementById(stages[currentStage]).scrollIntoView({ behavior: 'smooth' });
+        currentStage = (currentStage + 1) % stages.length;
+      });
+    </script>
   </div>
+
+
+  <div id="Second_stage">
+    <div class="format_header">
+      <h2>Resouces Gathered for:</h2>
+      <h2>"How to solve the 17 SDG's"</h2>
+    </div>
+    <div class="format_header">
+      <h2>How do you want to organize this data?</h2>
+    </div>
+    <div class="search-results">
+      <div class="result-box">
+        <a href="#" class="result-url">URL</a>
+        <h2 class="result-title">Title</h2>
+        <p class="result-date">Date</p>
+        <p class="result-type">Type of Data</p>
+        <p class="result-relevance">Relevance</p>
+      </div>
+      <!-- More result boxes can be added here -->
+
+      <div class="result-box">
+        <a href="#" class="result-url">URL</a>
+        <h2 class="result-title">Title</h2>
+        <p class="result-date">Date</p>
+        <p class="result-type">Type of Data</p>
+        <p class="result-relevance">Relevance</p>
+      </div>
+      <div class="result-box">
+        <a href="#" class="result-url">URL</a>
+        <h2 class="result-title">Title</h2>
+        <p class="result-date">Date</p>
+        <p class="result-type">Type of Data</p>
+        <p class="result-relevance">Relevance</p>
+      </div>
+      <div class="result-box">
+        <a href="#" class="result-url">URL</a>
+        <h2 class="result-title">Title</h2>
+        <p class="result-date">Date</p>
+        <p class="result-type">Type of Data</p>
+        <p class="result-relevance">Relevance</p>
+      </div>
+      <!-- More result boxes can be added here -->
+    </div>
+
+  </div>
+
+  <div id="Third_stage">
+    <div class="format_header">
+      <h2>Data Organized into</h2>
+      <h2>Types of Solutions</h2>
+    </div>
+
+    <div class="container">
+      <div class="bunch-A">
+        <div class="item-container">
+          <div class="item" style="background-color: #ff6347;"></div>
+          <div class="item" style="background-color: #3cb371;"></div>
+          <div class="item" style="background-color: #1e90ff;"></div>
+          <div class="item" style="background-color: #ff6347;"></div>
+          <div class="item" style="background-color: #3cb371;"></div>
+          <div class="item" style="background-color: #1e90ff;"></div>
+        </div>
+        <!-- Content of bunch A -->
+      </div>
+      <div class="bunch-B">
+        <div class="item-container">
+          <div class="item" style="background-color: #ff6347;"></div>
+          <div class="item" style="background-color: #3cb371;"></div>
+          <div class="item" style="background-color: #1e90ff;"></div>
+          <div class="item" style="background-color: #ff6347;"></div>
+          <div class="item" style="background-color: #3cb371;"></div>
+          <div class="item" style="background-color: #1e90ff;"></div>
+        </div>
+        <!-- Content of bunch B -->
+      </div>
+      <div class="bunch-C">
+        <div class="item-container">
+          <div class="item" style="background-color: #ff6347;"></div>
+          <div class="item" style="background-color: #ff6347;"></div>
+          <div class="item" style="background-color: #3cb371;"></div>
+          <div class="item" style="background-color: #1e90ff;"></div>
+        </div>
+        <!-- Content of bunch C -->
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="Fourth_stage">
+    <div class="format_header">
+      <h2>Two year plan to reach the 17 UN SDG's</h2>
+      <h2>Starting with the Man in the Mirror</h2>
+    </div>
+    <div class = "icon_format" >
+      <div class="icon-row">
+        <a href="https://calendar.google.com" target="_blank">
+          <img src="../img/new_Icons/Google_Calendar_icon_(2020).svg.png" alt="Google Calendar" class="icon">
+      </a>
+      <a href="https://docs.google.com" target="_blank">
+          <img src="../img/new_Icons/Google_Docs_Logo_64px.png" alt="Google Docs" class="icon">
+      </a>
+        <a href="https://www.youtube.com" target="_blank">
+            <img src="../img/new_Icons/yt_logo_rgb_light.png" alt="YouTube" class="icon">
+        </a>
+      
+    </div>
+
+    </div>
+    <div class="search-results">
+      <div class="timeline-container">
+        <!-- Year 1: Foundation and Immediate Actions -->
+        <div class="year-section" id="year1">
+            <h2>Year 1: Foundation and Immediate Actions</h2>
+            <!-- Months 1-3: Laying the Groundwork -->
+            <div class="action-item">
+                <h3>Months 1-3: Laying the Groundwork</h3>
+                <div class="actions">
+                    <div class="sdg-icon">🌱</div>
+                    <p><strong>Adopt a Plant-Based Diet:</strong> Start incorporating one plant-based meal a day.</p>
+                    <div class="sdg-icon">♻️</div>
+                    <p><strong>Reduce Waste:</strong> Conduct a waste audit and minimize single-use plastics.</p>
+                    <div class="sdg-icon">📚</div>
+                    <p><strong>Stay Educated:</strong> Dedicate time each week to learn about an SDG.</p>
+                </div>
+            </div>
+            <!-- Months 4-6: Expanding Impact -->
+            <div class="action-item">
+                <h3>Months 4-6: Expanding Impact</h3>
+                <div class="actions">
+                    <div class="sdg-icon">🤝</div>
+                    <p><strong>Advocate for Human Rights:</strong> Participate in advocacy for human rights.</p>
+                    <div class="sdg-icon">🧹</div>
+                    <p><strong>Cleaning up Litter:</strong> Organize or participate in local clean-up drives.</p>
+                    <div class="sdg-icon">🌿</div>
+                    <p><strong>Growing a Garden:</strong> Start a small garden or join a community garden.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Year 2: Consolidation and Scaling Up -->
+        <div class="year-section" id="year2">
+            <h2>Year 2: Consolidation and Scaling Up</h2>
+            <!-- Months 13-18: Building on Success -->
+            <div class="action-item">
+                <h3>Months 13-18: Building on Success</h3>
+                <div class="actions">
+                    <div class="sdg-icon">🔍</div>
+                    <p><strong>Evaluate Your Impact:</strong> Assess changes and their impact on your carbon footprint.</p>
+                    <div class="sdg-icon">📢</div>
+                    <p><strong>Expand Your Advocacy:</strong> Lead in advocacy and organize larger awareness events.</p>
+                </div>
+            </div>
+            <!-- Months 19-24: Sustaining Momentum and Creating Legacy -->
+            <div class="action-item">
+                <h3>Months 19-24: Sustaining Momentum and Creating Legacy</h3>
+                <div class="actions">
+                    <div class="sdg-icon">👥</div>
+                    <p><strong>Mentor Others:</strong> Share experiences and mentor individuals or groups.</p>
+                    <div class="sdg-icon">📜</div>
+                    <p><strong>Contribute to Policy Making:</strong> Engage with policymakers and advocate for supportive policies.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+
+     
+    </div>
+
+
+    <div id="Thank_you">
+      <div class="format_header">
+        <h2>This is Sage </h2>
+        <h2>Thank yous</h2>
+      </div>
+
+             
+      </div>
+  
 </body>
 
 </html>
