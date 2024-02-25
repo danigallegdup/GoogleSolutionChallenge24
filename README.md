@@ -3,7 +3,7 @@
 # Google Solution Challenge 2024
 Sage is an innovative learning platform designed to harness the vast data available online, organizing it into a personalized, optimal learning environment. It aims to cater to diverse learning needs, from grade school students to lifelong learners, by providing tailored educational resources and support.
 
-## Click to see prototype: [https://googlesolutionchallenge-2024.web.app/]
+[YouTube Video](https://www.youtube.com/watch?v=bxiadb27IIs)
 
 ## Quality Education for All
 Sage addresses the challenge of accessible, quality education for all. Whether you're a student struggling with traditional learning, someone pursuing a personal goal, or simply curious, Sage offers a custom-tailored learning journey, ensuring educational resources are accessible, engaging, and effective for every learner.

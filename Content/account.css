@@ -59,6 +59,9 @@
   }
   
   .search-results {
+  background-image: url("../img/2556664.jpg ");
+  background-repeat: repeat;
+  background-size: 100% 100%;
   position: relative;
   right: -60%;
   top: 0;
@@ -71,6 +74,38 @@
   }
   
   
+  .search-results1 {
+    background-image: url("../img/5013256.jpg");
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    position: relative;
+    right: -60%;
+    top: 0;
+    border-radius: 10%;
+    width: 33%; /* Adjust this value to control the width of the card */
+    height: 80vh; /* This makes the card the full height of the viewport */
+    overflow-y: auto; /* This makes the card scrollable */
+    border: 1px solid #ccc; /* This adds a border around the card */
+    padding: 20px; /* This adds some space inside the card */
+    box-sizing: border-box; /* This ensures the padding and border are included in the card's width and height */
+    }
+  
+    .search-results2 {
+      background-image: url("../img/5437683.jpg");
+      background-repeat: repeat;
+      background-size: 100% 100%;
+      position: relative;
+      right: -60%;
+      border-radius: 10%;
+      top: 0;
+      width: 33%; /* Adjust this value to control the width of the card */
+      height: 80vh; /* This makes the card the full height of the viewport */
+      overflow-y: auto; /* This makes the card scrollable */
+      border: 1px solid #ccc; /* This adds a border around the card */
+      padding: 20px; /* This adds some space inside the card */
+      box-sizing: border-box; /* This ensures the padding and border are included in the card's width and height */
+      }
+      
   
   .search-results {
   /* Other styles for the search results card */
@@ -275,8 +310,8 @@
   
   .format_header{
   position: relative;
-  top: 20%; /* Adjust this value to move the header up or down */
-  margin-left: 15%; 
+  top: 25%; /* Adjust this value to move the header up or down */
+  margin-left: 20%; 
   text-align: center;
   }
   

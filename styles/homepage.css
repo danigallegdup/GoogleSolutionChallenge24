@@ -105,7 +105,7 @@
 .result-date, .result-type, .result-relevance {
   margin: 0;
   font-size: 0.8em;
-  color: #666;
+  color: #f4f4f4;
 }
 
 #Third_stage{
@@ -292,7 +292,7 @@
 
 .format_header h2 {
 	font-size: 2em;
-	color:  #83808c;
+	color:  #ffffff;
 	text-align: left;
 }
 
