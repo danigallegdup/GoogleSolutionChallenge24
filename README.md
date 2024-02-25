@@ -5,6 +5,13 @@ Sage is an innovative learning platform designed to harness the vast data availa
 
 [YouTube Video](https://www.youtube.com/watch?v=bxiadb27IIs)
 
+[Solution Challenge](https://developers.google.com/community/gdsc-solution-challenge)
+
+## How to Run:
+- just open in index.html this is a prototype
+
+
+
 ## Quality Education for All
 Sage addresses the challenge of accessible, quality education for all. Whether you're a student struggling with traditional learning, someone pursuing a personal goal, or simply curious, Sage offers a custom-tailored learning journey, ensuring educational resources are accessible, engaging, and effective for every learner.
 
